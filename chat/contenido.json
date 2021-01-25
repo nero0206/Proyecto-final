@@ -1,0 +1,57 @@
+{"contenido":[
+    {"tag":"saludo",
+        "patrones":["hola","un saludo","hello","buenos dias"],
+        "respuestas":["hola que tal, en que puedo ayudarte","Comó te va, en que puedo ayudarte","un gusto de verte,en que puedo ayudarte","buenos dias, en que puedo ayudarte"]
+    },
+    {"tag":"postre",
+        "patrones":["postre","que postre tienes","que hay de postre","que pontres hay"],
+        "respuestas":["pastel de chocolate, panseillos, flan, helado,arroz con leche"]
+    },
+    {"tag":"platillos",
+        "patrones":["platillo","que platillos tienes","¿que hay de comer?","'¿que comida hay?","que hay de comer"],
+        "respuestas":["cochinita pibill, pozole, carnitas","el menu varea segun el dia,para una informacion mas exacta visitanos en: www.losgueros_restaurante.com"]
+    },
+    {"tag":"bebidas",
+        "patrones":["tomar","beber","bebidas","¿que bebidas tienen?","sirven alcohol"],
+        "respuestas":["tenemos refrescos, aguas, cervezas, tequilas y whisk"]
+    },
+    {"tag":"despedida",
+        "patrones":["adios","hasta luego","nos vemos","hasta la proxima"],
+        "respuestas":["cuidate","adios", "nos vemos pronto", "te estare esperando"]
+
+    },
+    {"tag":"abierto",
+        "patrones":["abierto","abren","a que hora abren","desde a que hora estan abiertos","a que hora aceptan clientes"],
+        "respuestas":["El restaurante abre a las 10 am","aceptamos clientes desde las 10am"]
+                
+    },
+    {"tag":"sin",
+        "patrones":["sin reservacion","aceptan clientes sin reservacion"],
+        "respuestas":["solo se acepta clientes con reservacion","no se aceptan clientes sin reservacion, deberias hacer una reservacion"]
+                
+    },
+    {"tag":"cerrado",
+        "patrones":["cerrado","cierran","a que hora cierran"],
+        "respuestas":["El restaurante cierra a las 12 pm, pero dejamos de recivir clientes con reservacion a las 11pm"]
+                
+    },
+    {"tag":"personas",
+        "patrones":["cuantas personas son en la reservacion","cuantas personas por reservacion","cuantos comensales pueden ir en una reservacion"],
+        "respuestas":["son 5 personas maximo","5 personas por reservacion","en una reservacio pueden ir 5 comensales"]
+    },
+    {"tag":"reservacion",
+        "patrones":["cuantas veces puedo reservar","puedo hacer mas de una reservacion","puedo hacer mas reservaciones"],
+        "respuestas":["solo puedes hacer una reservacion por persona","si ya hiciste una reservacion ya no puedes hacer otra"]
+    },
+    {"tag":"niños",
+        "patrones":["pueden entrar niños","pueden entrar niños","cuantos niños pueden ir por reservacion","bebé","bebés"],
+        "respuestas":["se admiten niños de 12 años en adelante, solo toma encuenta el menu del restaurante","acuerdate que solo son 5 personas maximo, contanto a los niños(12 años en adelante)", "solo pueden ingresar de 12 años en adelante"]
+    },
+    {"tag":"horario",
+        "patrones":["cual es el horario del restaurante","horario"],
+        "respuestas":["el horario del restaurante es de lunes a domingo de 10am a 12pm, pero dejamos de admitir clientes a las 10:30"]
+    }
+
+]
+ 
+}
